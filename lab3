@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+\begin{titlepage}
+\centering
+{\Huge{Visvesvaraya Technological University}\par}
+\vspace{1cm}
+\includegraphics[width=0.3\textwidth]{Screenshot (2).png}\par
+\vspace{1cm}
+{\Large A Project Report\par}
+\vspace{0.25cm}
+{\Large On \par}
+\vspace{0.25cm}
+{\Large Soft Computing \par}
+\vspace{1cm}
+{\large Submitted by\par}
+\vspace{0.25cm}
+{\large Your Name \par}
+\vspace{1 cm}
+{\large under the guidance \par}
+\vspace{0.25cm}
+{\large kavya m \par}
+\vspace{0.25cm}
+{\large ass.prof skit cse }
+\end{titlepage}
+\end{document}

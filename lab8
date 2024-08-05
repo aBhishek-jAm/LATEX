@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsthm}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\begin{document}
+\section{Numbered theorems, definitions, corollaries, and lemmas}
+
+\begin{theorem}
+Let \( f \) be a function whose derivative exists at every point, then \( f \) is continuous.
+\end{theorem}
+
+\begin{theorem}[Pythagorean theorem]
+\label{pythagorean}
+For a right triangle:
+\[ x^2 + y^2 = z^2 \]
+\end{theorem}
+
+\begin{corollary}
+There is no right triangle with sides measuring 3 cm, 4 cm, and 6 cm.
+\end{corollary}
+
+\begin{lemma}
+Given two line segments of lengths \( a \) and \( b \), there is a real number \( r \) such that \( b = ra \).
+\end{lemma}
+
+\begin{definition}[Absolute value function]
+$
+|x| =
+\left\{
+	\begin{array}{ll}
+		x  & \text{if }  x \geq 0 \\
+		-x & \mbox{if } x \leq 0
+	\end{array}
+\right.
+$
+\end{definition}
+
+\end{document}

@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{array}
+
+\begin{document}
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+S.No & USN & Student Name & \multicolumn{3}{|c|}{Marks} \\
+\cline{4-6}
+& & & PHYSICS & CHEMISTRY & MATHEMATICS \\
+\hline
+1 & 1kT21CS600 & ABHAY & 89 & 60 & 90 \\
+2 & 1kT21CS601 & AHAN & 78 & 45 & 98 \\
+3 & 1kT21CS602 & ABHINAV & 67 & 55 & 59 \\
+\hline
+\end{tabular}
+
+\end{document}

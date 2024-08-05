@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[margin=2cm]{geometry}
+
+\begin{document}
+
+\section*{Subfigure Demo}
+
+\begin{figure}[h]
+     \centering
+     \begin{subfigure}{0.3\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{Screenshot (2).png} 
+         \caption{$y=x$}
+    
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}{0.3\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{Screenshot (2).png}
+         \caption{$y=3\sin x$}
+    
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}{0.3\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{Screenshot (2).png}
+         \caption{$y=5/x$}
+     
+     \end{subfigure}
+     \caption{Three graphs}
+
+\end{figure}
+
+\end{document}

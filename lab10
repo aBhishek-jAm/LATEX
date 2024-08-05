@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{tikz} 
+\begin{document}
+\begin{tikzpicture}[
+level 1/.style = {sibling distance = 5.5cm},
+level 2/.style = {sibling distance = 3.5cm}
+]
+\node{root}
+child{node{child 1}
+child{node{grandchild 1}}
+child{node{grandchild 2}}
+}
+child{node{child 2}
+child{node{grandchild 3}}
+child{node{grandchild 4}}
+};
+\end{tikzpicture}
+\end{document}

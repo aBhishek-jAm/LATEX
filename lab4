@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\begin{document}
+\centering
+{\Huge\textbf{CERTIFICATE}\par}
+\vspace{2 cm}
+{\large This to certify that \par}
+\vspace{0.5cm}
+\underline{\hspace{8 cm}}\par
+\vspace{0.5cm}
+{\large has successfully completed the project \par}
+\vspace{0.5cm}
+\underline{\hspace{8 cm}}\par
+\vspace{0.5cm}
+{\large under our guidance and supervision \\}
+\vspace{1.5 cm}
+\begin{flushright}
+    \underline{\hspace{4cm}}\\
+    \vspace{0.25cm}
+    {\large Supervisor/Guide}\\
+    \vspace{0.5cm}
+    \underline{\hspace{4cm}}\\
+    \vspace{0.25cm}
+    {\large HOD}\\
+\end{flushright}
+\vfill
+\underline{\hspace{12 cm}}\\
+\vspace{0.5cm}
+DATE:\underline{\hspace{4cm}}
+\end{document}

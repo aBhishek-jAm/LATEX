@@ -1,0 +1,6 @@
+\usepackage{fancyhdr}
+\fancyhf{}
+\fancyhead[R]{GNU PROJECT}
+\fancyfoot[L]{SKIT}
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{1 px}

@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{algorithm2e}
+\usepackage{caption}
+\usepackage[margin = 2cm]{geometry}
+\begin{document}
+\begin{algorithm}
+\caption{Floyd($W[1...n,1...n]$)}
+\section*{FLOYDS ALGORITHM}
+\KwIn{the algorithm takes a matrix $W$ of a graph with vertices}
+\KwOut{the algorithm gives distance matrix $D$ of shortest paths}
+\For{$k \gets $1 \KwTo $n$}{
+    \For{$i \gets $1 \KwTo $n$}{
+        \For{$j \gets $1 \KwTo $n$}{
+        $D[i,j]=\min(D[i,j],D[i,k]+D[k,j]);$
+        }
+    }
+}
+$return D$
+\end{algorithm}
+\end{document}

@@ -1,0 +1,38 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{amsfonts}
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\title{TEST}
+\author{SKIT STUDENT}
+\date{\today}
+\begin{document}
+\maketitle
+\tableofcontents
+\chapter{Free software}
+\section*{what is free software}
+\lipsum[1]
+\section*{features of free software}
+\begin{itemize}
+    \item its free
+    \item its software
+    \item its open
+    \item more contribution
+\end{itemize}
+\chapter{LISTS}
+\section{unorder lists}
+\begin{itemize}
+    \item groceries:egg,milk,bread
+    \item food\begin{itemize}
+        \item veg food: paneer,mushroom,vegies
+        \item non veg food:chicken,mutton
+    \end{itemize}
+\section{ordered list}
+\begin{enumerate}
+    \item icc world rankings\begin{enumerate}
+        \item india
+        \item australia
+        \item NZ
+    \end{enumerate}
+\end{enumerate}
+\end{itemize}
+\end{document}

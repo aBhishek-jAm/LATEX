@@ -1,31 +1,17 @@
 \documentclass{article}
-\usepackage{hyperref} % For clickable links
-\title{LaTeX for Beginners}
-\author{Jyothis K P}
-\date{\today}
-
+\usepackage{cite}
+\title{\textbf{CITATIONS AND REFERENCES}}
 \begin{document}
 \maketitle
-
-\section{Introduction}
-LaTeX is a typesetting system commonly used for academic and technical documents.
-
-\section{Getting Started with LaTeX}
-To start using LaTeX, beginners can utilize online resources such as the LaTeX Wikibook\footnote{\url{https://en.wikibooks.org/wiki/LaTeX}}. Additionally, websites like Overleaf\footnote{\url{https://www.overleaf.com/learn}} provide interactive tutorials and templates
-
-\section{Citations and References}
-Here are some useful resources related to LaTeX:
-\begin{itemize}
-    \item LaTeX Wikibook\footnote{\url{https://en.wikibooks.org/wiki/LaTeX}}
-    \item Overleaf tutorials and templates\footnote{\url{https://www.overleaf.com/learn}}
-    \item LaTeX Project official website\footnote{\url{https://www.latex-project.org/}}
-    \item ShareLaTeX (now part of Overleaf)\footnote{\url{https://www.overleaf.com/blog/191}}
-    \item TeX Stack Exchange community\footnote{\url{https://tex.stackexchange.com/}}
-    \item Comprehensive TeX Archive Network (CTAN)\footnote{\url{https://www.ctan.org/}}
-    \item LaTeX Community forums\footnote{\url{https://latex.org/forum/}}
-    \item Art of Problem Solving (AoPS) LaTeX guide\footnote{\url{https://artofproblemsolving.com/wiki/index.php/LaTeX}}
-    \item LaTeX Workshop for Visual Studio Code\footnote{\url{https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop}}
-    \item TeX Users Group (TUG)\footnote{\url{https://www.tug.org/}}
-\end{itemize}
-
+\section{First paragraph}
+this is frst para its includes \cite{cite1,cite2,cite3}
+\section{Second paragraph}
+this is scnd para its includes \cite{cite4,cite5,cite1}
+\begin{thebibliography}{5}
+\bibitem{cite1}a1
+\bibitem{cite2}a2
+\bibitem{cite3}a3
+\bibitem{cite4}a4
+\bibitem{cite5}a5
+\end{thebibliography}
 \end{document}
